@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.4.0",
+    "gulp": "^3.8.11",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-ruby-sass": "^1.0.1",
+    "gulp-jade": "^1.0.0",
+    "gulp-uglify": "^1.1.0",
+    "gulp-autoprefixer": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
