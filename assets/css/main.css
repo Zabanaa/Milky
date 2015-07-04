@@ -1359,5 +1359,24 @@ img {
 }
 
 body {
-  background-color: peachpuff;
+  background-color: mediumturquoise;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+body h1 {
+  color: white;
+  font-size: 3em;
+  letter-spacing: 0.03em;
+  text-shadow: 1px 1px 1px #a0a0a0;
 }
