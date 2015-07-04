@@ -1,8 +1,9 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700");
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, *::after, *::before {
   box-sizing: inherit;
 }
 
@@ -1331,4 +1332,28 @@ html {
   -webkit-animation: wobble 1s linear both;
   animation: wobble 1s linear both;
   visibility: visible !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
 }
