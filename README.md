@@ -1,6 +1,8 @@
 # Milkshake Panda Starter Kit
 
-This starter kit acts a simple boilerplate for simple front end projects.
+Milky is a very basic boilerplate for simple front end projects.
+
+Opinionated (Pure sass, bourbon, neat, no compass)
 
 It has Sass, Jade, Bourbon and Neat built-in to it. A Jekyll ready version is on the works as well and should be out soon.
 
