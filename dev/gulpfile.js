@@ -14,7 +14,7 @@ gulp.task('browser-sync', function(){
 
    var files = [
 
-      '/*.jade',
+      '/jade/**/*.jade',
       '/js/*.js',
       '/sass/**/*.sass'
 
@@ -23,7 +23,7 @@ gulp.task('browser-sync', function(){
    browserSync(files, {
 
       server: '../',
-      notify: false
+      notify: true
 
    });
 
@@ -34,7 +34,7 @@ gulp.task('browser-sync', function(){
 
 gulp.task('jade', function () {
 
-   gulp.src('*.jade')
+   gulp.src('./jade/*.jade')
       .pipe(jade({
          pretty: true
       }))
@@ -91,7 +91,7 @@ gulp.task('imagemin', function(){
 
 gulp.task('watch', function () {
 
-   gulp.watch('*.jade', ['jade']); // watch the jade files
+   gulp.watch('jade/**/*.jade', ['jade']); // watch the jade files
    gulp.watch('sass/**/*.sass', ['sass']); // watch the sass files
    gulp.watch('js/*.js', ['uglify']); // watch the js files
    gulp.watch('img/*', ['imagemin']); // watch the img files
