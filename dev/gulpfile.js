@@ -72,7 +72,7 @@ gulp.task('sass', function(){
 gulp.task('uglify', function () {
 
    gulp.src('js/*.js')
-      .pipe(plumber)
+      .pipe(plumber())
       .pipe(uglify())
       .pipe(gulp.dest('../assets/js'))
       .pipe(reload({stream: true}));
