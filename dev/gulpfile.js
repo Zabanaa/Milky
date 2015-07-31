@@ -5,6 +5,7 @@ var jade = require('gulp-jade');
 var uglify = require('gulp-uglify');
 var prefix = require('gulp-autoprefixer');
 var browserSync = require('browser-sync');
+var plumber = require('gulp-plumber');
 var reload = browserSync.reload;
 
 
@@ -71,6 +72,7 @@ gulp.task('sass', function(){
 gulp.task('uglify', function () {
 
    gulp.src('js/*.js')
+      .pipe(plumber)
       .pipe(uglify())
       .pipe(gulp.dest('../assets/js'))
       .pipe(reload({stream: true}));
