@@ -1365,6 +1365,10 @@ h1.super-header {
   font-size: 3em;
 }
 
+p {
+  font-size: 18px;
+}
+
 .wrapper {
   max-width: 63em;
   margin-left: auto;
@@ -1395,4 +1399,11 @@ h1.super-header {
 }
 .main .main__section {
   color: #504077;
+}
+.main .main__strapline {
+  text-align: center;
+  margin-top: 35px;
+  color: #924992;
+  font-size: 23px;
+  font-weight: 600;
 }
