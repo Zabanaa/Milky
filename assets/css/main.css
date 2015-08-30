@@ -1358,8 +1358,28 @@ img {
   display: inline-block;
 }
 
-body {
-  background-color: mediumturquoise;
+h1 {
+  font-size: 2em;
+}
+h1.super-header {
+  font-size: 3em;
+}
+
+.wrapper {
+  max-width: 63em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper--slim {
+  max-width: 45em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  height: 100vh;
+  background-color: #FEED30;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1372,11 +1392,7 @@ body {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100vh;
 }
-body h1 {
-  color: white;
-  font-size: 3em;
-  letter-spacing: 0.03em;
-  text-shadow: 1px 1px 1px #a0a0a0;
+.main .main__section {
+  color: #504077;
 }
