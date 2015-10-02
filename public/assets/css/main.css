@@ -1334,6 +1334,87 @@ html {
   visibility: visible !important;
 }
 
+.icon--facebook svg path {
+  fill: #3B539A;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.icon--facebook:hover svg path {
+  fill: #354b8b;
+}
+
+.icon--twitter svg path {
+  fill: #00ACED;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.icon--twitter:hover svg path {
+  fill: #009dd9;
+}
+
+.icon--gplus svg path {
+  fill: #F12F1C;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.icon--gplus:hover svg path {
+  fill: #ea220e;
+}
+
+.icon--linkedin svg path {
+  fill: #007BB6;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.icon--linkedin:hover svg path {
+  fill: #006da2;
+}
+
+.icon--pinterest svg path {
+  fill: #CB2027;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.icon--pinterest:hover svg path {
+  fill: #b91d24;
+}
+
+.icon--youtube svg path {
+  fill: #BB0000;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.icon--youtube:hover svg path {
+  fill: #a70000;
+}
+
+.icon--instagram svg path {
+  fill: #517FA4;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.icon--instagram:hover svg path {
+  fill: #4a7496;
+}
+
+.icon--github svg path {
+  fill: #161414;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.icon--github:hover svg path {
+  fill: #0b0a0a;
+}
+
+.icon--vimeo svg path {
+  fill: #1BB8EE;
+  -webkit-transition: all 0.3s ease-in;
+          transition: all 0.3s ease-in;
+}
+.icon--vimeo:hover svg path {
+  fill: #11aee4;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1401,16 +1482,6 @@ p {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .main {
-    background-color: #fff;
-  }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  .main {
-    background-color: mediumaquamarine;
-  }
 }
 .main .main__section {
   color: #504077;
