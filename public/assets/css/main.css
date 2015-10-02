@@ -1358,6 +1358,11 @@ img {
   display: inline-block;
 }
 
+input {
+  border: none;
+  outline: 0;
+}
+
 h1 {
   font-size: 2em;
 }
@@ -1396,6 +1401,16 @@ p {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    background-color: #fff;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .main {
+    background-color: mediumaquamarine;
+  }
 }
 .main .main__section {
   color: #504077;
