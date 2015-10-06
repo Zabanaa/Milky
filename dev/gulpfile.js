@@ -52,7 +52,7 @@ gulp.task('sass', function(){
 
    return sass('sass/main.sass', {
 
-      style: 'expanded',
+      style: 'compressed',
       loadPath: 'sass'
 
    })

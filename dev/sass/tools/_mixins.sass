@@ -1,1 +1,41 @@
-// Mixins go here
+// !! Responsive Mixins !! //
+
+// Declare the Breakpoints in variables
+
+$mobile: "(min-width: 320px) and (max-width: 480px)"
+$tablet: "(min-width: 768px) and (max-width: 1024px)"
+$desktop: "(min-width: 1200px) and (max-width: 1600px)"
+$desktop-retina: "(min-device-width: 1200px) and  (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi)"
+$large-desktop: "(min-width: 1600px)"
+
+// Create the mixins
+
+=mobile
+
+   @media #{$mobile}
+
+      @content
+
+=tablet
+
+   @media #{$tablet}
+
+      @content
+
+=desktop
+
+   @media #{$desktop}
+
+      @content
+
+=desktop-retina
+
+   @media #{$desktop-retina}
+
+      @content
+
+=large-desktop
+
+   @media #{$large-desktop}
+
+      @content
