@@ -4,14 +4,15 @@
   "description": "",
   "main": "gulpfile.js",
   "devDependencies": {
-    "gulp-plumber": "^1.0.1",
     "browser-sync": "^2.4.0",
     "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-babel": "^5.2.1",
     "gulp-imagemin": "^2.2.1",
-    "gulp-ruby-sass": "^1.0.1",
     "gulp-jade": "^1.0.0",
-    "gulp-uglify": "^1.1.0",
-    "gulp-autoprefixer": "^2.1.0"
+    "gulp-plumber": "^1.0.1",
+    "gulp-ruby-sass": "^1.0.1",
+    "gulp-uglify": "^1.1.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
