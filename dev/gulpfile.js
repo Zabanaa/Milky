@@ -5,8 +5,8 @@ var jade = require('gulp-jade');
 var uglify = require('gulp-uglify');
 var prefix = require('gulp-autoprefixer');
 var browserSync = require('browser-sync');
-var plumber = require('gulp-plumber');
 var babel = require('gulp-babel');
+var plumber = require('gulp-plumber');
 var reload = browserSync.reload;
 
 
@@ -73,8 +73,9 @@ gulp.task('sass', function(){
 gulp.task('uglify', function () {
 
    gulp.src('js/app.js')
-      .pipe(plumber())
-      .pipe(babel())
+      .pipe(babel({
+          presets: ['es2015']
+      }))
       .pipe(uglify())
       .pipe(gulp.dest('../public/assets/js'))
       .pipe(reload({stream: true}));

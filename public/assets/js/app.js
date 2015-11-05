@@ -1,1 +1,1 @@
-console.log("zeogoef");
+"use strict";var helloWorld="Hello World";console.log(helloWorld);
