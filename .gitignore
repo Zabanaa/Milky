@@ -1,4 +1,4 @@
 dev/node_modules
 dev/.sass-cache
 dev/npm-debug.log
-public/
+/public
