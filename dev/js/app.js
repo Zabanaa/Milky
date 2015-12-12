@@ -1,2 +1,3 @@
-let helloWorld = "Hello World";
-console.log(helloWorld);
+import {test} from './module';
+
+test.log()
