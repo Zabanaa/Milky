@@ -83,7 +83,6 @@ gulp.task('watchAll', function () {
 
    gulp.watch('jade/**/*.jade', ['jade']); // watch the jade files
    gulp.watch('sass/**/*.sass', ['sass']); // watch the sass files
-   // gulp.watch('js/*.js', ['uglify']); // watch the js files
    gulp.watch('img/*', ['imagemin']); // watch the img files
 
 });
