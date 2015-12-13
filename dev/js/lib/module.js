@@ -4,9 +4,8 @@ class MyClass {
         this.header.addEventListener("click", this.log);
     }
 
-    log(e) {
-        e.stopPropagation()
-        alert("Hey Yo Bro")
+    log() {
+        console.log("Hey Bro");
     }
 }
 export let test = new MyClass()

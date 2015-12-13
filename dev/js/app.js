@@ -1,3 +1,3 @@
-import {test} from './module';
+import {test} from './lib/module';
 
 test.log()
