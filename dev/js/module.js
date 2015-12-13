@@ -1,10 +1,12 @@
 class MyClass {
     constructor() {
-        // console.log("hey yo bitch")
+        this.header = document.querySelector('.super-header')
+        this.header.addEventListener("click", this.log);
     }
 
-    log() {
-        console.log("hheaouihgfogh");
+    log(e) {
+        e.stopPropagation()
+        alert("Hey Yo Bro")
     }
 }
 export let test = new MyClass()
