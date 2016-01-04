@@ -6,6 +6,7 @@ $mobile: "(min-width: 320px) and (max-width: 480px)"
 $mobile-up: "(min-width: 320px)"
 $tablet: "(min-width: 768px) and (max-width: 1024px)"
 $tablet-up: "(min-width: 768px)"
+$tablet-landscape: "(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)"
 $desktop: "(min-width: 1200px) and (max-width: 1600px)"
 $large-desktop: "(min-width: 1600px)"
 $desktop-up: "(min-width: 1200px)"
@@ -35,6 +36,12 @@ $desktop-retina: "(min-device-width: 1200px) and  (max-device-width: 1600px) and
 =tablet-up
 
     @media #{$tablet-up}
+
+        @content
+
+=tablet-landscape
+
+    @media #{$tablet-landscape}
 
         @content
 
