@@ -89,7 +89,7 @@ gulp.task('watchAll', function () {
 
 
 function compile(watch) {
-  var bundler = watchify(browserify('js/app.js', { debug: true }).transform(babel, {presets: ["es2015"]}));
+  var bundler = watchify(browserify('js/app.js', { debug: true }).transform(babel, {presets: ["es2015", "react"]}));
 
   function rebundle() {
     bundler.bundle()

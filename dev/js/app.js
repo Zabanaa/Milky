@@ -1,3 +1,8 @@
-import {test} from './lib/module';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-test.log()
+
+ReactDOM.render(
+    <h1>Hello, world!</h1>,
+    document.querySelector('.main')
+)
