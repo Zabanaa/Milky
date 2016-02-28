@@ -8,7 +8,9 @@ I also incorporated the Jade templating engine because I find it more enjoyable 
 
 It also comes packed with smoothie, my sass animation library. I was thinking about doing a Jekyll version of it but I abandoned the idea.
 
-As of december 2015, Milky is fully compatible with javascript es6 (or ES2015) thanks to babel and browserify. This will enable you (and me) to write modular and easy to manage javascript code.
+Milky is fully compatible with javascript es6 (or ES2015) thanks to babel and browserify. This will enable you (and me) to write modular and easy to manage javascript code.
+
+You'll also be happy to know that ReactJS is supported right out of the box and fully integrated with browser-sync!
 
 All you have to do is browse to the /dev folder, run (sudo) npm install and gulp.
 
